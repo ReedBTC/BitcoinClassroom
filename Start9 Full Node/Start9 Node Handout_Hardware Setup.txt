@@ -1,1 +1,43 @@
-﻿TBD
+﻿Setup a Start9 Node
+
+1. Go to Start9.com, click on "Docs," then click on DIY Guide and finally, click
+   on "DIY x86"
+2. Scroll down and click on Flashing (x86)
+  a. Right click on the link to the Github release page, and open it in a new tab
+  b. In the new tab, download the "x86_64.iso" file by clicking on it
+    i. In this demo we will skip the checksum verification
+  c. Scroll down and right click on the link to download balenaEtcher and open it
+     in a new tab
+    i. Click on "Download Etcher" and then click on the download link for "ETCHER
+       FOR WINDOWS (X86|X64) (INSTALLER)"
+3. Navigate to your downloads and run the balenaEtcher Installer
+  a. Perform a default installation
+4. Plug in empty USB Drive
+5. In balenaEtcher Click "Flash from File" and select the "x86_64.iso" you just 
+   downloaded, then Click "Select target" and select the USB drive you plugged in,
+   Then Click "Flash!"
+  a. Click allow if prompted by Windows
+6. After this completes, you may remove the newly flashed drive from your computer,
+   and insert it into the computer you intend to install StartOS onto
+7. Turn on the computer you intend to install StartOS onto and press F9 continuously
+   until the boot menu appears (note this step will be different for every computer)
+  a. select the USB drive
+8. Click on the disk to install StartOS on (only option) and then click "Install 
+   StartOS (Will delete existing data on disk), then Click "Continue"
+  a. Once Installed, Click "Reboot" and remove the USB drive
+9. Upon restart, click "Start Fresh" and Click on the disk to install StartOS on
+   (only option)
+  a. Type in a Password, retype it, and then write it down on a piece of paper then 
+     Click Next
+10. Click "Continue to Login" and type your password
+11. In StartOS, Click on "System" and Click on "About" and Check your IPv4 IP 
+    Address
+12. On your laptop, open a browser and type in the IP address of your Start9 Node
+  a. Under "Download your server's Root CA" click "Download" (and click "Keep" if
+     prompted)
+  b
+
+
+
+
+
